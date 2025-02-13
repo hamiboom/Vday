@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamiboom!</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="top">
+                <img src="assets/heart.png" class="heart-image">
+                <img src="assets/hamiboom_head.png" class="main-image">
+                <img src="assets/heart.png" class="heart-image">
+            </div>
+            <h3>Hamiboom!</h3>
+        </div>
+        <div class="content" id="canvas">
+            <canvas id="fabricCanvas"></canvas>
+        </div>
+        <p class="main-sub-text" data-view="generate">Valentine Gram Maker!</p>
+        <div class="form-input" data-view="generate">
+            <label for="">To:</label>
+            <input type="text" class="to-input" placeholder="Enter their name here" maxlength="9">
+        </div>
+        <div class="form-input" data-view="generate">
+            <label for="">From:</label>
+            <input type="text" class="from-input" placeholder="Enter your name here" maxlength="10">
+        </div>
+        <div class="bottom" data-view="generate">
+            <button class="btn generate-button">
+                <img src="assets/heart.png">
+                Generate!
+                <img src="assets/heart.png">
+            </button>
+        </div>
+        <p class="main-sub-text d-none" data-view="generated">Happy Valentines! :3</p>
+        <div class="bottom d-none" data-view="generated">
+            <a download="homiboom.png" class="btn download-button">
+                <img src="assets/heart.png">
+                Download
+                <img src="assets/heart.png">
+            </a>
+            <button class="btn regen-button">Re-Generate</button>
+        </div>
+    </div>
+    <div class="pc-container">
+        <img src="assets/hamiboom_head.png" class="main-image">
+        <p>Please view on a mobile device &lt;3! </p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/2.0.0-beta.1/fabric.js"></script>
+    <script src="assets/curved.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
