@@ -96,6 +96,14 @@ body {
     margin: 30px 0px;
 }
 
+.main-subsmall-text {
+ color: white;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
 .form-input {
     display: flex;
     flex-direction: column;
