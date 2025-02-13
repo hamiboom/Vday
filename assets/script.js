@@ -12,7 +12,7 @@ fabric.Image.fromURL('assets/base.webp', function (img) {
         scaleY: canvas.height / img.height
     });
     canvas.setBackgroundImage(img, function () {
-        toText = new fabric.CurvedText('To: Miah <3', {
+        toText = new fabric.CurvedText('To: ______ <3', {
             top: 240,
             textAlign: 'center',
             fill: '#ffffff',
@@ -26,7 +26,7 @@ fabric.Image.fromURL('assets/base.webp', function (img) {
             originX: 'center'
         });
 
-        fromText = new fabric.CurvedText('From: Androse c:', {
+        fromText = new fabric.CurvedText('From: Androse :3', {
             top: 268,
             textAlign: 'center',
             fill: '#ffffff',
