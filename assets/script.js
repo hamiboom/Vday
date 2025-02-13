@@ -26,7 +26,7 @@ fabric.Image.fromURL('assets/base.webp', function (img) {
             originX: 'center'
         });
 
-        fromText = new fabric.CurvedText('From: Androse :3', {
+        fromText = new fabric.CurvedText('From: ______ :3', {
             top: 268,
             textAlign: 'center',
             fill: '#ffffff',
