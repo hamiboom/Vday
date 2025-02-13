@@ -49,7 +49,7 @@ fabric.Image.fromURL('assets/base.webp', function (img) {
 
 function drawText(from, to) {
     toText.setText(`To: ${to} <3`);
-    fromText.setText(`From: ${from} c:`);
+    fromText.setText(`From: ${from} :3`);
     canvas.renderAll();
 }
 
