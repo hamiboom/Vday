@@ -32,7 +32,7 @@ fabric.Image.fromURL('assets/base.webp', function (img) {
             fill: '#ffffff',
             radius: 500,
             fontSize: 14,
-            spacing: 0.3,
+            spacing: 0.5,
             fontFamily: 'WakuWaku',
             reverse: true,
             locked: true,
