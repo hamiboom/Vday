@@ -97,11 +97,11 @@ body {
 }
 
 .main-subsmall-text {
- color: white;
+    color: white !important;
     text-align: center;
     font-size: 18px;
     text-align: center;
-    margin: 30px 0px;
+    margin: 15px 0px;
 }
 
 .form-input {
