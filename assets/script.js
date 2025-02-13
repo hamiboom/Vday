@@ -91,7 +91,7 @@ generateBtn.addEventListener("click", async function () {
 });
 
 regenerateBtn.addEventListener("click", async function () {
-    drawText("androse", "Miah");
+    drawText("______", "_______");
     hideEls(generatedEls);
     showEls(generateEls);
     toInput.value = "";
