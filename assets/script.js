@@ -72,8 +72,8 @@ function hideEls(els) {
 function createImage() {
     return canvas.toDataURL({
         format: 'png',
-        multiplier: 2.5,
-        quality: 1
+        multiplier: 3.6,
+       enableRetinaScaling: false
     });
 }
 
